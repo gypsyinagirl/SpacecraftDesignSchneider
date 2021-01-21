@@ -1,0 +1,86 @@
+\documentclass{article}
+
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{bbm}
+\usepackage{fancyhdr}
+% \usepackage{listings}
+\usepackage{cite}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{courier}
+\usepackage[pdftex,colorlinks=true, urlcolor = blue]{hyperref}
+\usepackage[most]{tcolorbox}
+\usepackage{arydshln}
+\usepackage{verbatim}
+
+\oddsidemargin 0in \evensidemargin 0in
+\topmargin -0.5in \headheight 0.25in \headsep 0.25in
+\textwidth 6.5in \textheight 9in
+\parskip 6pt \parindent 0in \footskip 20pt
+
+% set the header up
+\fancyhead{}
+\fancyhead[L]{Stanford Aeronautics \& Astronautics}
+\fancyhead[R]{Fall 2020}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+\renewcommand\headrulewidth{0.4pt}
+\setlength\headheight{15pt}
+
+\usepackage{xparse}
+\NewDocumentCommand{\codeword}{v}{%
+\texttt{\textcolor{blue}{#1}}%
+}
+
+\usepackage{xcolor}
+\setlength{\parindent}{0in}
+
+\title{AA 236: Spacecraft Design \\ Problem Set 1}
+\author{Name: Emma Schneider \\ SUID: epschnei}
+\date{}
+
+\begin{document}
+
+\maketitle
+\pagestyle{fancy} 
+
+\section*{Problem 1}
+\begin{enumerate}[label=(\alph*)]
+\item -- code --
+\item -- code --
+\item -- code --
+\item -- code --
+\item -- code --
+\end{enumerate}
+\section*{Problem 2}
+\begin{enumerate}[label=(\alph*)]
+	\item -- done --
+	\item -- done --
+\end{enumerate}
+\section*{Problem 3}
+\begin{enumerate}[label=(\alph*)]
+	\item Two Line Elements (TLEs) were originally developed as a way to predict the location of Earth orbiting satellites with minimal amount of data elements. The original model was developed by Max Lane in the 1960s and an improved version became TLE format in the 1970s. It was originally developed for use on punch cards but is now formatted into a text file. TLEs are still used and useful today for describing the trajectories and locations of Earth orbiting items. 
+	\item Beginings of a TLE reader
+	\begin{enumerate}[label=(\roman*)]
+		\item My TLE file:
+		\verbatiminput{stations.txt}
+		\item -- cloned to local drive --
+		\item -- Done --
+		
+		\item
+		\item
+		\item
+		
+		\item
+		\item
+		\item (BONUS)
+	\end{enumerate}
+\end{enumerate}
+\section*{Problem 4}
+\begin{enumerate}[label=(\alph*)]
+	\item
+	\item
+\end{enumerate}
+\end{document}
