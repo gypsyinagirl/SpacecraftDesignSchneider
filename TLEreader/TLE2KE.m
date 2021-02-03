@@ -85,7 +85,7 @@ Mt = Mo + dt*sqrt(mu_e/(a^3));
 
 %Solve Keplers Equation numerically
 Eo = Mo;
-Et = Eo - ((Eo-e*sin(Eo)-Mt)/(1-e*cos(Eo)));
+Et = Eo - ((Eo-e*sin(Eo)-Mo)/(1-e*cos(Eo)));
 
 % solve for true anomaly 
 vt = 2*atan2(sqrt(1+e)*sin(Et/2),sqrt(1-e)*sin(Et/2));
