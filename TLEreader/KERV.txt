@@ -1,0 +1,19 @@
+Keplerian Elements 
+
+Epoch Time:     2 / 1 / 2021  5 hrs, 43 minutes, 20.23 sec 
+Inclination:    0.9014 radians
+RAAN:           5.1512 radians
+Eccentricity:   0.2115 
+Arg of Perigee: 5.6786 radians
+Mean Motion:    0.0011 radians/sec
+Mean Anomaly:   3.1242 radians
+BSTAR:          0.0000 earth rad ^-1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Cartesian State Vectors
+
+r =     14630459636.5270 m
+        -2184111026.1450 m
+        17929892277.2813 m
+r_dot = -85.1748 m/s
+        37.4857 m/s
+        -76.4545 m/s
